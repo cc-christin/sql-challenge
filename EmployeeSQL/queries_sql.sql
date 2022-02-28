@@ -1,23 +1,3 @@
-# sql-challenge
-
-# SQL Homework - Employee Database: A Mystery in Two Parts
-
-
-## Background
-
-As a newly hired data engineer at Pewlett Hackard, the task given is a research project on employees of the corporation from the 1980s and 1990s. All that remain of the database of employees from that period are six CSV files. Design the tables to hold data in the CSVs, import the CSVs into a SQL database, and answer questions about the data. 
-
-Perform: 
-
-1. Data Modeling
-2. Data Engineering
-3. Data Analysis
-
-## Data Modeling
-![QuickDBD Diagram](/images/quick_dbd)
-
-## Data Engineering
-
 -- Data Engineering 
 -- Drop Existing Tables 
 DROP TABLE IF EXISTS departments CASCADE;
@@ -91,8 +71,6 @@ REFERENCES "employees" ("emp_no");
 ALTER TABLE "dept_emp" ADD CONSTRAINT "fk_dept_emp_dept_no" FOREIGN KEY("dept_no")
 REFERENCES "departments" ("dept_no");
 
-#### Data Analysis
-
 -- Query * FROM TABLE, Data Confirmation
 SELECT * FROM departments; 
 SELECT * FROM titles;
@@ -163,16 +141,14 @@ ORDER BY
 COUNT(last_name) DESC; 
 
 
-## Rubric
 
-[Unit 9 Rubric - SQL Homework - Employee Database: A Mystery in Two Parts](https://docs.google.com/document/d/1OksnTYNCT0v0E-VkhIMJ9-iG0_oXNwCZAJlKV0aVMKQ/edit?usp=sharing)
 
-- - -
 
-## References
 
-Mockaroo, LLC. (2021). Realistic Data Generator. [https://www.mockaroo.com/](https://www.mockaroo.com/)
 
-- - -
 
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+
+
+
+
+
