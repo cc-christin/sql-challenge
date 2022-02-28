@@ -14,7 +14,7 @@ Perform:
 3. Data Analysis
 
 ## Data Modeling
-![QuickDBD Diagram](/images/quick_dbd)
+![QuickDBD Diagram](https://github.com/christin-c-sok/sql-challenge/blob/main/images/quick_dbd.png)
 
 ## Data Engineering
 
