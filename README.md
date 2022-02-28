@@ -97,7 +97,7 @@ REFERENCES "departments" ("dept_no");
 ```
 
 #### Data Analysis
-* CSV to Queries in querydata
+* CSV(s) to Queries in querydata folder
 ``` python
 -- Query * FROM TABLE, Data Confirmation
 SELECT * FROM departments; 
